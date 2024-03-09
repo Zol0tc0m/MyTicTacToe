@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}   
+
+.showcase {
+    min-height: 470px;
+    background: url('https://shapka-youtube.ru/wp-content/uploads/2020/11/playstation-prev.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.showcase h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+}
+
+.main-sidebar-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+
+.accessories {
+    margin-top: 20px;
+}
+
+.accessories-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.accessory {
+    padding: 10px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.accessory img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.main {
+    padding: 0 30px;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+.sidebar {
+    background: #ffffff;
+    color: #000000;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    color: #ffffff;
+    background: #0072ce;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #00569e;
+}
